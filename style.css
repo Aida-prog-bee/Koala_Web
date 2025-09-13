@@ -1,0 +1,58 @@
+/* Fuente general */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAF6F6; /* Verde menta pastel */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #77DD77, #89CFF0); /* Verde pastel a azul pastel */
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff !important;
+  letter-spacing: 2px;
+}
+.nav-link {
+  color: #fff !important;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #FFD580 !important; /* Amarillo pastel al pasar */
+}
+
+/* Header */
+header {
+  background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085") no-repeat center/cover;
+  padding: 120px 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  border-radius: 0 0 20px 20px; /* Esquinas redondeadas abajo */
+}
+header h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+header p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+/* Main */
+main h2 {
+  color: #77DD77; /* Verde pastel */
+  margin-bottom: 15px;
+}
+main p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  font-size: 0.9rem;
+}
